@@ -1,6 +1,6 @@
 package com.microservicio.notificaciones.domain.dto;
 
-public class Notifications {
+public class NotificationsDto {
 
     private String header;
     private String content;

@@ -15,13 +15,23 @@ public class Notificaciones {
 
     private String encabezado;
     private String contenido;
+
+    @Column(name = "tipo_notificacion")
     private String tipoNotificacion;
     private String destinatario;
     private int prioridad;
     private int estado;
+    
+    @Column(name = "fecha_creacion")
     private LocalDateTime fechaCreacion;
+
+    @Column(name = "fecha_lectura")
     private LocalDateTime fechaLectura;
+
+    @Column(name = "fecha_entrega")
     private LocalDateTime fechaEntrega;
+
+    @Column(name = "fecha_actualizacion")
     private LocalDateTime fechaActualizacion;
 
     // Relación OneToMany con Preferencias

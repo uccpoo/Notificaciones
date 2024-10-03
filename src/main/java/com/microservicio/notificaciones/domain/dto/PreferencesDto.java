@@ -1,6 +1,6 @@
 package com.microservicio.notificaciones.domain.dto;
 
-public class Preferences {
+public class PreferencesDto {
     private Long idPreferences;
     private String receiverChannel;
     private String language;
